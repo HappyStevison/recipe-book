@@ -1,16 +1,41 @@
-# React + Vite
+# Recipe Book
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack CRUD application built with React and TypeScript, demonstrating modern web development practices.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[**View the live application here**](https://recipe-book-black-ten.vercel.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **C**reate new recipes with a clean, validated form.
+-   **R**ead a list of all recipes and view the details of any single recipe.
+-   **U**pdate existing recipes with a pre-populated edit form.
+-   **D**elete recipes with a single click.
+-   Clean, responsive UI built with Tailwind CSS.
+-   Type-safe components and logic with TypeScript.
+-   Client-side routing with React Router.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Frontend:** React, TypeScript, Vite
+-   **Routing:** React Router
+-   **Styling:** Tailwind CSS
+-   **Forms:** React Hook Form
+-   **Data:** JSONPlaceholder (Fake API)
+
+## 📦 How to Run Locally
+
+1.  Clone the repository:
+    `git clone https://github.com/YOUR_USERNAME/recipe-book.git`
+2.  Navigate to the project directory:
+    `cd recipe-book`
+3.  Install dependencies:
+    `npm install`
+4.  Start the development server:
+    `npm run dev`
+5.  Open your browser to `http://localhost:5173`.
+
+## 🤔 Reflection
+
+This project was a capstone for my learning journey. It allowed me to solidify my understanding of React hooks, state management, data fetching, routing, and form handling. I also gained experience integrating TypeScript into a project to improve robustness and maintainability.
